@@ -2,9 +2,13 @@
 
 import os, shutil, datetime
 
-dir_name = '/home/ken/Desktop/'
-out_dir_name = 'desktop_vn'
+# simple script for cleaning desktop
 
+# dir to clean
+dir_name = '/home/ken/Desktop/'
+# dir to store desktop items
+out_dir_name = 'desktop_vn'
+# exclude from cleaning
 white_list = [
 	'home',
 	'just_job',
